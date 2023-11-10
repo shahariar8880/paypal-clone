@@ -1,0 +1,72 @@
+@media (max-width : 600px) {
+    header {
+        height: 75vh;
+    }
+
+    nav {
+        height: 8vh;
+    }
+       
+    .nav-left img {
+        width: 5.8vw;
+    }
+    .nav-left a {
+        display: none;
+    }
+
+    .nav-right {
+        gap: 10px;
+    }
+    .nav-right .help {
+        display: none;
+    }
+
+    .nav-right .btn {
+        padding: 6px 12px ;
+    }
+
+    .nav-right i {
+        display: block;
+    }
+    
+    /* hero-section */
+    .hero-sec h1 {
+        padding: 17px 30px;
+    }
+
+    .hero-sec button {
+        display: block;
+    }
+
+    .second-part {
+        padding-top: 10px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .left-hero h4 {
+        font-size: 16px;
+        
+        
+    }
+
+    .left-hero h3 {
+        display: none;
+    }
+
+    .third-part {
+        display: none;
+    }
+
+    .right-hero {
+        padding-left: 60px;
+    }
+
+    .right-hero img { 
+        width: 67vw;
+    }
+
+}
